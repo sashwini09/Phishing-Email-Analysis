@@ -1,0 +1,35 @@
+SIMULATED PHISHING EMAIL — FOR TRAINING
+
+From: Microsoft 365 Support <security-alert@company-login.example>
+Reply-To: support-team@unknown-mail.example
+Return-Path: <bounce@unknown-mail.example>
+To: employee@example.com
+Subject: URGENT! Your Account Will Be Suspended Today
+Date: 06 November 2026
+Message-ID: <alert123@unknown-mail.example>
+
+EMAIL BODY:
+
+Dear User,
+
+We detected unusual activity in your Microsoft 365 account.
+
+Your account will be permanently suspended within 24 hours unless you verify your account immediately.
+
+Click the link below to prevent account suspension:
+
+https://company-security-check.example/verify
+
+Failure to complete verification will result in permanent loss of your emails and files.
+
+Thank you,
+Microsoft 365 Security Team
+
+SIMULATED HEADER ANALYSIS:
+
+Authentication-Results:
+spf=fail
+dkim=fail
+dmarc=fail
+
+Note: This is a fictional sample with simulated header results, not a real received email.
